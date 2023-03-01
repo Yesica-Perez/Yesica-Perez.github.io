@@ -1,0 +1,245 @@
+
+* {
+  box-sizing: border-box;
+}
+* {color: black;
+}
+img{
+  width: 100%;
+  padding: 15px 30px 15px 30px ;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+  background-color: wheat;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color:violet;
+  color:white;
+}
+
+
+.dropdown {
+  
+  position:relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  
+  display: none;
+  position: absolute;
+  background-color: white;
+  padding: 10px 10px;
+  
+  
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+.header{
+
+    width: 25%;
+  float: left;
+  padding: 15px 1px 180px ;
+  border: 1px solid none;
+  background-color: gray;
+}
+ form{
+  width: 25%;
+  float: left;
+  padding: 100px 50px 1px ;
+ }
+ button{
+  background-color: violet;
+  color: purple;
+  text-decoration-color: purple;
+ }
+.datos{
+  width: 60%;
+  float: right;
+  padding: 0px 30px 5px 1px
+;
+  border: 1px solid none;
+}
+
+
+h1,h2,h3{
+
+padding: 1px;
+color: purple;
+}
+label{
+  width: 75%;
+  float: left;
+  padding: 1px 5px 5px 420px;
+}
+li{
+  width: 75%;
+  float: left;
+}
+
+h1,h3{
+text-decoration: underline;
+  
+}
+span{
+  text-decoration: underline;
+color:  purple;
+}
+
+
+
+
+.Insenia-content {
+  display: none;
+  position: absolute;
+  background-color: gray;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.Insenia:hover .Insenia-content {
+  display: block;
+  border: solid 2px violet ;
+}
+
+.IFP-content {
+  display: none;
+  position: absolute;
+  background-color: gray;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  
+}
+
+.IFP:hover .IFP-content {
+  display: block;
+  border: solid 2px violet ;
+}
+
+.Programación-content {
+  display: none;
+  position: absolute;
+  background-color: gray;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.Programación:hover .Programación-content {
+  display: block;
+  border: solid 2px violet ;
+}
+
+.Fix-content {
+  display: none;
+  position: absolute;
+  background-color: gray;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.Fix:hover .Fix-content {
+  display: block;
+  border: solid 2px violet ;
+}
+
+.Bricotex-content {
+  display: none;
+  position:absolute;
+  background-color: gray;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.Bricotex:hover .Bricotex-content {
+  display: block;
+  border: solid 2px violet ;
+}
+
+.Tecnocasa-content {
+  display: none;
+  position:absolute;
+  background-color: gray;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.Tecnocasa:hover .Tecnocasa-content {
+  display: block;
+  border: solid 2px violet ;
+}
+
+.dropbtn {
+  text-decoration: underline;
+  background-color:white;
+  color: purple;
+  padding: 5px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: purple;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color:white;
+}
+
+
+  
+  
