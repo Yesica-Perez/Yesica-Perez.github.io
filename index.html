@@ -4,62 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos-cv.css">
-    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="estiloscv.css">
+     <script src="https://kit.fontawesome.com/062cc583f9.js" crossorigin="anonymous"></script>
+    <title>Curriculum</title>
 </head>
-<body> 
-    <div class="header">
+<body>
+
+    <div  class="personal">
 
     <img src="https://randomuser.me/api/portraits/women/94.jpg" alt="La imagen no se cargo correctamente"
-height="150px" width="150px"/>
-
-<div class="dropdown">
-  <h3>Acerca de mi</h3>
-  <div class="dropdown-content">
-    <p> Me considero una persona creativa, con una excelente capacidad de resolucion de problemas y con gran habilidad para la planificacion de los trabajos a realizar</p>
-
-    <p>También soy proactiva, confiable, me gusta trabajar en equipo y aprender de diferentes puntos de vista. Estoy acostumbrada a trabajar por objetivos orientados en generar resultados, con excelente capacidad de organización y gestion de tiempos.</p>
-  
-  </div>
-</div>
-
-<h3>Habilidades</h3>
-
-<p>Resolución de conflictos</p>
-
-<p>Servicio al cliente</p>
-
-<p>Habilidades directivas</p>
-
-<p>Liderazgo y trabajo en equipo</p>
-
-<p>Técnicas contables</p>
-
-<p>Capacidad organizativa</p>
-
-<p>Habilidades Informáticas</p>
-
-<p>Administracion de oficina</p>
-
-<p>Facilidad para realizar múltiples tareas</p>
-
-
-
-</div>
- 
+    height="150px" width="150px"/>
+    
+       <div class="Nombre">
          <h1>Sabrina Edith Gonzále</h1>
-   
-         <ul>
-          <li><a href="#Nacionalidad">Nacionalidad: Argentina</a></li>
-          <li><a href="#Email">Email: sabrinagon@gmail.com</a></li>
-          <li><a href="#Teléfono">Teléfono: 011-1591036587</a></li>
-          <li><a href="#Nacimiento">Fecha Nacimiento: 1/06/1991</a></li>
-          <li><a href="#Dirección">Dirección: Av Corrientes 1256 C.3</a></li>
-          <li><a href="#Nacimiento">Fecha Nacimiento: 1/06/1991</a></li>
+    </div>
 
-        </ul>
-        
-  <h3>*Estudios</h3>
+   <div class="demi">  <h3>Acerca de mi</h3>
+            <div class="demi-content">
+             <p>Me considero una persona creativa, con una excelente capacidad de resolucion de problemas y con gran habilidad para la planificacion de los trabajos a realizar</p>
+             <p>También soy proactiva, confiable, me gusta trabajar en equipo y aprender de diferentes puntos de vista. Estoy acostumbrada a trabajar por objetivos orientados en generar resultados, con excelente capacidad de organización y gestion de tiempos.</p>
+            </div>
+        </div>
+      
+
+            <h3>Habilidades</h3>
+
+            <p>Resolución de conflictos</p>
+            <p>Servicio al cliente</p>
+            <p>Habilidades directivas</p>
+            <p>Liderazgo y trabajo en equipo</p>
+            <p>Técnicas contables</p>
+            <p>Capacidad organizativa</p>
+            <p>Habilidades Informáticas</p>
+            <p>Administracion de oficina</p>
+            <p>Facilidad para realizar múltiples tareas</p>
+
+            <button type="button" id="sumar" >Redes Sociales
+          </button>
+              
+            <p id="demo">
+
+    </div>
+
+        <div  class="datos">
+           <ul>  
+          <h4><i class="fas fa-envelope" style="font-size:24px;"></i>  <a href="#Email">Email:sabrinagon@gmail.com</a></h4>
+                 <h4><i class="fas fa-phone" style="font-size:24px;"></i>  <a href="#Teléfono">Teléfono: 011-1591036587</a></h4>
+                <h4><i class="far fa-calendar-alt" style="font-size:24px;"></i>  <a href="#Nacimiento">Fecha Nacimiento: 1/06/1991</a></h4>
+                <h4><i class="fas fa-map-marked-alt" style="font-size:24px;"></i>  <a href="#Dirección">Dirección: Av Corrientes 1256 C.3</a></h4>
+             </ul>
+
+       <h3><i class="fas fa-graduation-cap" style="font-size:34px;">  </i> Estudios</h3>
              <div class="Insenia">
               <p> <span>Insenia Desing School</span></p>
                 <div class="Insenia-content">
@@ -81,17 +76,7 @@ height="150px" width="150px"/>
                 </div>
               </div>
 
-               
-               <div class="dropdown">
-                <button class="dropbtn">*Idiomas</button>
-                <div class="dropdown-content">
-                <a href="#">Español: Nivel nativo</a>
-                <a href="#">Ingles: Nivel intermedio</a>
-                <a href="#">Frances: Nivel básico</a>
-                </div>
-              </div>
-
-              <h3>*Experiencias Laborales</h3>
+              <h3><i class="fas fa-briefcase"  style="font-size:34px;">  </i>  Experiencias Laborales</h3>
 
               
               <div class="Fix">
@@ -122,11 +107,21 @@ height="150px" width="150px"/>
                <li>Gestión de la liquidación de comisiones a agentes.</li></p>
                 </div>
               </div>
-               
-              <button type="button" id="sumar">Redes Sociales</button>
-              
-              <p id="demo">
 
- <script src="../cv.js"></script>
+           <div class="idiomas">
+                <button class=".dropbtn">*Idiomas</button>
+                <div class="idiomas-content">
+                <a href="#">Español: Nivel nativo</a>
+                <a href="#">Ingles: Nivel intermedio</a>
+                <a href="#">Frances: Nivel básico</a>
+                </div>
+              </div>
+        </div>
+            
+        <script src="js/cv.js"></script>
+
+
+
+
 </body>
 </html>
