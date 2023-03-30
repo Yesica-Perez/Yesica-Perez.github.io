@@ -3,11 +3,12 @@
   }
 
  img{
-    margin: auto 50px ;
-    width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   border: 3px solid purple;
   padding: 5px solid;
-  }
+ }
 
   [class*="col-"] {
     width: 100%;
@@ -51,21 +52,25 @@
    background-color:rgb(116, 104, 104);
    border: groove;
    border-style: none solid solid none;
-    
+  
+
   }
 
   .datos{
    width: 70% ;
     float: right;
     padding: 20px;
+    
+
   }
 
   .Nombre{
     font-family: "Times New Roman", Times, serif;
-    margin: 5px 50px ;
     color: black;
     text-align:left;
     text-shadow: 2px 2px 5px purple;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   h1,h3,a{
@@ -83,6 +88,13 @@
       border-bottom-width: initial;
         text-align:start;
         color: purple;
+        position:unset;
+        right: 0px;
+        width: 300px;
+        padding: 10px;
+        
+
+
       }
 
     .demi-content{
@@ -126,6 +138,7 @@
       .Fix:hover .Fix-content, .Bricotex:hover .Bricotex-content, .Tecnocasa:hover .Tecnocasa-content {
         display: block;
         border: solid 3px violet ;
+      
       }
 
       .dropbtn {
@@ -168,7 +181,3 @@
 .idiomas:hover .dropbtn {
   background-color:violet;
 }
-
-
-  
-  
